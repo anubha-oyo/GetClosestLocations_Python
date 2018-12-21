@@ -11,7 +11,7 @@ from math import sin, cos, sqrt, atan2, radians
 from operator import itemgetter
 import pickle
 
-api_key = 'AIzaSyALzoro2MmWJmlosX7AVBrm5vFq8U67O0Q'
+api_key = 'AIzaSyALzoro2MmWJmlosX7AVBrm5vFq8U67O0Q' #replace your api key for Geocoding API
 
 with open ('outfile', 'rb') as fp:
     dictList = pickle.load(fp)
