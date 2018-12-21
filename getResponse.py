@@ -16,7 +16,7 @@ for row in input_file:
 
 for d in dictList:
   location = d['Locations']
-  api_key = 'AIzaSyALzoro2MmWJmlosX7AVBrm5vFq8U67O0Q'
+  api_key = 'AIzaSyALzoro2MmWJmlosX7AVBrm5vFq8U67O0Q' #replace your api key for Geocoding API
   api_response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address={0}&key={1}'.format(location, api_key))
   api_response_dict = api_response.json()
   if api_response_dict['status'] == 'OK':
