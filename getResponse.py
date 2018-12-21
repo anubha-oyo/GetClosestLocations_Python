@@ -11,7 +11,6 @@ import pickle
 
 dictList = []
 input_file = csv.DictReader(open("Film_Locations_in_San_Francisco.csv"))
-#input_file = csv.DictReader(open("sample.csv"))
 for row in input_file:
     dictList.append(row)
 
